@@ -3,9 +3,6 @@
  *  Copyright 2021 Jonathan Strickland
  */
 
-import ex24.App;
-import java.util.Scanner;
-
 /**
  * Main class is used to run examples
  */
