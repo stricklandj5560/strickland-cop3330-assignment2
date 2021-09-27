@@ -9,6 +9,6 @@
 public class Runner {
     public static void main(String[] args) {
         // EX26 is a WIP
-       System.out.println(ex27.App.run());
+       System.out.println(ex28.App.run());
     }
 }
