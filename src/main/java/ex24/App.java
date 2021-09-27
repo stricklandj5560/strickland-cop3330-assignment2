@@ -29,7 +29,7 @@ public class App {
      * @param s1 string 1
      * @param s2 string 2
      */
-    public static boolean isAnagram(String s1, String s2) {
+    private static boolean isAnagram(String s1, String s2) {
         if (s1.length() != s2.length())
             return false;
         // check to see if every char in s1 is in s2.

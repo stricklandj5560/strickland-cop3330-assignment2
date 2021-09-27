@@ -11,6 +11,6 @@ import java.util.Scanner;
  */
 public class Runner {
     public static void main(String[] args) {
-       ex24.App.main(args);
+       ex25.App.main(args);
     }
 }
