@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Anagram checker
  */
 public class App {
-    public static void main(String [] args) {
+    public static String run() {
         try (Scanner scan = new Scanner(System.in)){
             String s1 = "";
             String s2 = "";
@@ -19,7 +19,7 @@ public class App {
             s1 = scan.nextLine();
             System.out.print("Enter your second string: ");
             s2 = scan.nextLine();
-            System.out.println("\"" + s1 + "\"" + " and \"" + s2 + "\" are" + (isAnagram(s1, s2) ? " " : " not " ) + "anagrams.");
+            return ("\"" + s1 + "\"" + " and \"" + s2 + "\" are" + (isAnagram(s1, s2) ? " " : " not " ) + "anagrams.");
         }
     }
 

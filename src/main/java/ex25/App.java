@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class App {
     private static final String alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-    public static void main(String[] args) {
+    public static String run() {
         try (Scanner scan = new Scanner(System.in)) {
             System.out.print("Enter a password: ");
             String password = scan.nextLine().trim();
@@ -31,7 +31,7 @@ public class App {
                 default:
                     break;
             }
-            System.out.println("The password " + password + " is a " + strength + " password.");
+            return ("The password " + password + " is a " + strength + " password.");
         }
     }
 
